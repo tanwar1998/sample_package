@@ -1,0 +1,14 @@
+{
+    "name": "globalgarner/samplepackage",
+    "type": "library",
+    "description": "This is sample project for checking how packages are created in laravel.",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Vineet Tanwar",
+            "email": "vineet.tanwar@globalgarner.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
