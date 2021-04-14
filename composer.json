@@ -10,5 +10,16 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "globalgarner\\samplepackage\\SampleProjectServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "GlobalGarner\\Samplepackage\\": "src/"
+        }
+    }
 }
