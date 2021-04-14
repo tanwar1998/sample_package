@@ -10,13 +10,13 @@ class TodolistController extends Controller
     //
     public function index()
     {
-        return redirect()->route('task.create');
+        return redirect()->route('sample.create');
     }
 
     public function create()
     {
-        $tasks = Task::all();
-        $submit = 'Add';
+        // $tasks = Task::all();
+        // $submit = 'Add';
         return 'hii mr tester';
         // return view('globalgarner.samplepackage.list', compact('tasks', 'submit'));
     }

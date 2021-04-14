@@ -1,2 +1,2 @@
 <?php
-Route::resource('/task', 'GlobalGarner\Samplepackage\TodolistController');
+Route::resource('/sample', 'GlobalGarner\Samplepackage\TodolistController');
